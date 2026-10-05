@@ -1,183 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Moriki Engineering</title>
-
-    <meta name="description"
-          content="Moriki Engineeringのアプリ・サービス情報を掲載しています。">
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            font-family:
-                -apple-system,
-                BlinkMacSystemFont,
-                "Helvetica Neue",
-                "Hiragino Kaku Gothic ProN",
-                "Yu Gothic",
-                sans-serif;
-            background: #f5f7fa;
-            color: #222;
-        }
-
-        header {
-            background: white;
-            text-align: center;
-            padding: 70px 20px 50px;
-            border-bottom: 1px solid #e5e5e5;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
-
-        header p {
-            margin-top: 12px;
-            color: #666;
-            font-size: 17px;
-        }
-
-        main {
-            max-width: 760px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .section-title {
-            margin-bottom: 20px;
-            font-size: 24px;
-        }
-
-        .app-card {
-            background: white;
-            border-radius: 18px;
-            padding: 28px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-        }
-
-        .app-card h2 {
-            margin: 0 0 8px;
-            font-size: 25px;
-        }
-
-        .app-card .subtitle {
-            margin-bottom: 20px;
-            color: #555;
-            font-size: 16px;
-        }
-
-        .app-card p {
-            line-height: 1.8;
-        }
-
-        .links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            margin-top: 24px;
-        }
-
-        .links a {
-            display: inline-block;
-            padding: 11px 18px;
-            border-radius: 10px;
-            background: #007aff;
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        .links a.secondary {
-            background: #eef1f5;
-            color: #333;
-        }
-
-        footer {
-            margin-top: 70px;
-            padding: 30px 20px;
-            text-align: center;
-            color: #888;
-            font-size: 13px;
-        }
-
-        @media (max-width: 600px) {
-            header {
-                padding-top: 50px;
-            }
-
-            header h1 {
-                font-size: 30px;
-            }
-
-            .app-card {
-                padding: 22px;
-            }
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>森樹エンジニアリング合同会社 | MORIKI ENGINEERING LLC</title>
+  <meta name="description" content="森樹エンジニアリング合同会社。3D CAD設計、3Dプリント、技術支援、ソフトウェア開発でアイデアをカタチにします。">
+  <meta name="theme-color" content="#b8ff2c">
+  <meta property="og:title" content="MORIKI ENGINEERING LLC">
+  <meta property="og:description" content="“What If” into Reality. — アイデアを技術でカタチに。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<header>
-    <h1>Moriki Engineering</h1>
-    <p>Apps &amp; Engineering</p>
+<header class="nav">
+  <a class="brand" href="#top">MORIKI<span>.</span></a>
+  <nav>
+    <a href="#about">ABOUT</a><a href="#services">SERVICES</a><a href="#works">WORKS</a><a href="#contact">CONTACT</a>
+  </nav>
 </header>
 
-<main>
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">MORIKI ENGINEERING LLC</p>
+    <h1><span>“What If”</span><br>into Reality.</h1>
+    <p class="lead">アイデアを、技術でカタチに。</p>
+    <p class="sub">3D Design / 3D Printing / Engineering / Software Development</p>
+    <div class="actions"><a class="btn primary" href="#services">OUR SERVICES</a><a class="btn" href="#contact">CONTACT</a></div>
+  </div>
+  <div class="hero-mark">
+    <img src="assets/moriki-logo.png" alt="MORIKI ENGINEERING LLC logo">
+  </div>
+</section>
 
-    <h2 class="section-title">Apps</h2>
+<section id="about" class="section">
+  <p class="num">01 / ABOUT</p>
+  <div class="split">
+    <h2>つくる方法は、<br>ひとつじゃない。</h2>
+    <div>
+      <p>森樹エンジニアリングは、設計・製造・ソフトウェアの境界を越えて、課題に合った方法を考えるエンジニアリングチームです。</p>
+      <p>「こんなものが欲しい」「こんなことができたらいい」。そのアイデアを、実際に使えるカタチへ。</p>
+    </div>
+  </div>
+</section>
 
-    <section class="app-card">
+<section id="services" class="section dark">
+  <p class="num">02 / SERVICES</p>
+  <h2>ENGINEERING<br>WITHOUT BORDERS.</h2>
+  <div class="cards">
+    <article><b>01</b><h3>3D DESIGN</h3><p>3D CADを活用した製品・治具・試作部品の設計。</p></article>
+    <article><b>02</b><h3>3D PRINTING</h3><p>試作から実用品まで、用途に合わせた3Dプリント造形。</p></article>
+    <article><b>03</b><h3>ENGINEERING</h3><p>製造現場の課題解決、工程改善、技術支援。</p></article>
+    <article><b>04</b><h3>SOFTWARE</h3><p>ものづくりを便利にするアプリ・ツールの企画開発。</p></article>
+  </div>
+</section>
 
-        <h2>画像圧縮くん</h2>
+<section id="works" class="section">
+  <p class="num">03 / WORKS & PRODUCTS</p>
+  <div class="split">
+    <h2>DESIGN.<br>BUILD.<br>IMPROVE.</h2>
+    <div>
+      <p>受託設計、3Dプリント製作、製造支援、自社ソフトウェアなど、領域にとらわれず「必要なもの」をつくります。</p>
+      <div class="tags"><span>CAD / CAM</span><span>3D PRINTING</span><span>JIG & FIXTURE</span><span>iOS / WINDOWS</span></div>
+      <p class="note">※ 制作実績・製品ページは順次追加予定です。</p>
+    </div>
+  </div>
+</section>
 
-        <div class="subtitle">
-            画像を指定容量以下にかんたん圧縮
-        </div>
-
-        <p>
-            「画像圧縮くん」は、画像を選んで目標容量を指定するだけで、
-            かんたんに画像を圧縮できるiPhoneアプリです。
-        </p>
-
-        <p>
-            2MB以下・1MB以下・500KB以下・200KB以下から
-            目標容量を選択できます。
-        </p>
-
-        <div class="links">
-
-            <a href="https://apps.apple.com/jp/app/id6814366397">
-                App Store
-            </a>
-
-            <a class="secondary"
-               href="/moriki-apps/privacy-image-compressor.html">
-                Privacy Policy
-            </a>
-
-            <a class="secondary"
-               href="/moriki-apps/support-image-compressor.html">
-                Support
-            </a>
-
-        </div>
-
-    </section>
-
+<section id="contact" class="contact">
+  <p class="num">04 / CONTACT</p>
+  <h2>HAVE A<br><span>“WHAT IF”?</span></h2>
+  <p>設計・製作・技術相談など、お気軽にお問い合わせください。</p>
+  <a class="mail" href="mailto:moriki.engineering@gmail.com">moriki.engineering@gmail.com →</a>
+</section>
 </main>
 
-<footer>
-    © 2026 Moriki Engineering
-</footer>
-
+<footer><b>MORIKI ENGINEERING LLC</b><span>“What If” into Reality.</span><small>© 2026 MORIKI ENGINEERING LLC</small></footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
+document.querySelectorAll('.section,.contact,.cards article').forEach(e=>io.observe(e));
+</script>
 </body>
 </html>
