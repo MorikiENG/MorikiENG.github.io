@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Quick3D Viewer | 森樹エンジニアリング</title>
-<meta name="description" content="Quick3D Viewerは、森樹エンジニアリングの自社開発iOS向け3D CADビューアです。旧称QuickSTEP Viewer。アプリ概要、App Storeへのリンク、プライバシーポリシー、サポートをご案内します。">
+<meta name="description" content="iPhoneでSTEP/STPの3Dモデルを表示・操作・測定。Quick3D Viewerの配信中アプリ（QuickSTEP Viewer）と次期版の開発内容、App Store、サポートをご案内します。">
 <meta name="theme-color" content="#b8ff2c">
 <link rel="canonical" href="https://morikieng.github.io/apps/quick3d-viewer.html">
 <meta property="og:title" content="Quick3D Viewer | 森樹エンジニアリング">
-<meta property="og:description" content="Quick3D Viewerは、森樹エンジニアリングの自社開発iOS向け3D CADビューアです。旧称QuickSTEP Viewer。アプリ概要、App Storeへのリンク、プライバシーポリシー、サポートをご案内します。">
+<meta property="og:description" content="iPhoneでSTEP/STPの3Dモデルを表示・操作・測定。Quick3D Viewerの配信中アプリ（QuickSTEP Viewer）と次期版の開発内容、App Store、サポートをご案内します。">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ja_JP">
 <meta property="og:site_name" content="森樹エンジニアリング">
@@ -36,43 +36,51 @@
   <p class="eyebrow">MORIKI ENGINEERING / iOS APP</p>
   <h1>Quick3D Viewer</h1>
   <p class="lead">3D CADデータを、もっと手軽に。</p>
-  <p class="detail-intro">森樹エンジニアリングが開発する、3D CADデータを閲覧するためのiOSアプリです。旧名称はQuickSTEP Viewerです。</p>
-  <div class="actions"><a class="btn primary" href="https://apps.apple.com/jp/app/quick3d-viewer/id6816122073">App Storeでダウンロード</a><a class="btn" href="#support">サポート・プライバシー</a>
+  <p class="detail-intro">森樹エンジニアリングが開発する、iPhone向け3D CADビューア。STEPモデルの表示・部品確認・寸法測定を手元で行えます。</p>
+  <div class="actions"><a class="btn primary" href="https://apps.apple.com/jp/app/quickstep-viewer/id6816122073">App Storeでダウンロード</a><a class="btn" href="#support">サポート・プライバシー</a>
 </div>
   <section class="detail-block" id="overview">
-    <h2>アプリ概要</h2>
-    <p>STEP以外の3Dファイル形式への対応に伴い、QuickSTEP ViewerからQuick3D Viewerへ名称を変更しました。</p>
-    <p class="status">製品の詳細情報は確認中です。現在の公開情報はApp Storeをご覧ください。</p>
+    <h2>手元で、形状確認から寸法チェックまで</h2>
+    <p>製造現場での形状確認、打ち合わせ、外出先でのデータ確認に。iPhoneでSTEPファイルを開き、指先でモデルを動かして、部品や寸法を確認できます。</p>
+    <div class="product-note"><p><strong>配信中のアプリについて</strong></p><p>Quick3D Viewerは、QuickSTEP Viewerの対応形式を広げていく製品です。2026年10月15日時点のApp Store掲載は「QuickSTEP Viewer」v1.0で、STEP/STPに対応しています。以下では配信中の機能と次期版に向けた開発内容を分けてご案内します。</p></div>
   </section>
   <section class="detail-block" id="features">
-    <h2>主な機能</h2>
-    <!-- TODO(quick3d-features): 最新ソースと実機で確認した機能に差し替える。 -->
-    <div class="product-placeholder" data-placeholder="features"><p>機能の詳細は確認中です。</p>
-</div>
+    <h2>配信中の主な機能</h2>
+    <div class="portfolio-grid">
+      <article class="portfolio-card"><h3>開く・動かす</h3><p>STEP/STPの3Dモデルを表示。タッチ操作で回転・ズーム・移動し、データの色情報やXYZ方向を確認できます。背景テーマの変更にも対応しています。</p></article>
+      <article class="portfolio-card"><h3>部品を確認する</h3><p>モデルツリーから部品を選択し、部品ごとに表示・非表示を切り替え。アセンブリの中から確認したい箇所を探せます。</p></article>
+      <article class="portfolio-card"><h3>寸法を測る</h3><p>2点間距離とXYZ差分、円筒の直径・半径、平行面間距離などを測定できます。測定できる項目は、モデルの形状と認識結果によって異なります。</p></article>
+    </div>
   </section>
   <section class="detail-block" id="formats">
-    <h2>対応ファイル形式</h2>
-    <!-- TODO(quick3d-formats): 確認済みの拡張子と形式別の制限を記載する。全形式の機能が同じとは推測しない。 -->
-    <div class="product-placeholder" data-placeholder="formats"><p>対応ファイル形式の詳細は確認中です。</p>
-</div>
+    <h2>配信中の対応ファイル形式</h2>
+    <p><strong>STEP / STP（.step / .stp）</strong></p>
+    <p>App Storeで配信中のv1.0で案内している形式です。IGESやメッシュ形式は、下記の開発内容をご覧ください。</p>
+  </section>
+  <section class="detail-block" id="development">
+    <h2>次期版に向けた開発内容</h2>
+    <p>以下は開発版で読み込み処理を実装済みの形式です。App Storeでの配信は未確認で、実機での表示・操作検証が残っています。配信中のv1.0の対応形式には含めていません。提供時期は未定です。</p>
+    <dl class="product-formats">
+      <dt>IGES / IGS</dt><dd>.iges / .igsのCADデータ読み込み。</dd>
+      <dt>STL / OBJ / PLY</dt><dd>三角形メッシュの表示。STLは色なし、OBJは基本色、PLYは頂点色を扱います。点群は非対応です。</dd>
+      <dt>3MF</dt><dd>Coreメッシュと部品配置、基本色の読み込み。拡張機能やテクスチャは非対応です。</dd>
+      <dt>GLB / glTF</dt><dd>glTF 2.0の静的三角形メッシュと階層、基本色の読み込み。テクスチャ、アニメーション再生、圧縮拡張は非対応です。</dd>
+      <dt>USDZ / USD</dt><dd>読み取り可能な静的三角形メッシュが対象です。完全なUSDシーン構成には対応せず、バイナリUSDや複雑なUSDZは実データで未検証です。</dd>
+    </dl>
+    <div class="product-note"><p><strong>形式による測定・表示の違い</strong></p><p>メッシュ形式では直径・半径・面間・軸間などのCAD固有の測定は使えません。STL・OBJ・PLYの単位はmmと仮定します。USDの単位を確認できない場合は、2点測定も無効になります。テクスチャや透明度の再現には対応していません。</p></div>
   </section>
   <section class="detail-block" id="screenshots">
-    <h2>スクリーンショット</h2>
-    <!-- TODO(quick3d-screenshots): 実際のアプリ画面を入手後、寸法・内容に即したaltとともに画像を配置する。架空の画面は使わない。 -->
-    <div class="product-placeholder" data-placeholder="screenshots"><p>このページには、アプリのスクリーンショットをまだ掲載していません。</p>
-</div>
+    <h2>アプリの掲載画像</h2>
+    <p>現在配信中のアプリの掲載画像は、<a href="https://apps.apple.com/jp/app/quickstep-viewer/id6816122073">App Storeの製品ページ</a>でご覧いただけます。</p>
   </section>
   <section class="detail-block" id="devices">
     <h2>対応デバイス</h2>
-    <!-- TODO(quick3d-devices): 最新リリースの対応機種と最低OSバージョンを確認して記載する。 -->
-    <div class="product-placeholder" data-placeholder="devices"><p>このページに掲載する対応デバイス・OSの詳細は確認中です。現在の動作条件はApp Storeの互換性情報をご確認ください。</p>
-</div>
+    <p>iPhone向けアプリです。App Store掲載の最低対応OSはiOS 18.6です。お使いのデバイスでの互換性と最新の動作条件は、App Storeでご確認ください。</p>
   </section>
   <section class="detail-block" id="download">
     <h2>ダウンロード</h2>
-    <p>配信状況やアプリの最新情報はApp Storeでご確認ください。</p>
-    <div class="actions"><a class="btn primary" href="https://apps.apple.com/jp/app/quick3d-viewer/id6816122073">App Storeでダウンロード</a>
-</div>
+    <p>App Storeでは「QuickSTEP Viewer」の名称で掲載されています。最新のバージョン、配信状況、提供条件をご確認のうえダウンロードしてください。</p>
+    <div class="actions"><a class="btn primary" href="https://apps.apple.com/jp/app/quickstep-viewer/id6816122073">App Storeでダウンロード</a></div>
   </section>
   <section class="detail-block" id="support">
     <h2>プライバシーポリシー・サポート</h2>
