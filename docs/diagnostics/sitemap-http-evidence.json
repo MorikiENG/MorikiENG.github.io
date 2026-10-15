@@ -1,0 +1,621 @@
+{
+  "checked_at_utc": "2026-10-15T05:43:02.038123+00:00",
+  "sitemap": {
+    "url": "https://morikieng.github.io/sitemap.xml",
+    "status": 200,
+    "final_url": "https://morikieng.github.io/sitemap.xml",
+    "redirects": [],
+    "headers": {
+      "server": "envoy",
+      "content-type": "application/xml",
+      "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+      "etag": "\"6ad06439-44d\"",
+      "cache-control": "max-age=600",
+      "age": "0",
+      "date": "Thu, 15 Oct 2026 05:42:53 GMT",
+      "content-length": "1101"
+    },
+    "bytes": 1101,
+    "sha256": "5e6f690d3dd6e928955dfe2fa47694b918b71e967c0bc8e4e6fca2a2ef37519a",
+    "valid_utf8": true,
+    "bom": false,
+    "root": "{http://www.sitemaps.org/schemas/sitemap/0.9}urlset",
+    "url_count": 16,
+    "unique_urls": 16,
+    "matches_main": true,
+    "xml_declaration": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+  },
+  "robots": {
+    "url": "https://morikieng.github.io/robots.txt",
+    "status": 200,
+    "final_url": "https://morikieng.github.io/robots.txt",
+    "redirects": [],
+    "headers": {
+      "server": "envoy",
+      "content-type": "text/plain; charset=utf-8",
+      "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+      "etag": "\"6ad06439-48\"",
+      "cache-control": "max-age=600",
+      "age": "0",
+      "date": "Thu, 15 Oct 2026 05:42:54 GMT",
+      "content-length": "72"
+    },
+    "bytes": 72,
+    "sha256": "957025dd156a2575fee2e4948d91eac6a47b024b32d760b71e2d3c2278a4292e",
+    "body": "User-agent: *\nAllow: /\nSitemap: https://morikieng.github.io/sitemap.xml\n",
+    "matches_main": true
+  },
+  "pages": [
+    {
+      "url": "https://morikieng.github.io/",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-189f\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:55 GMT",
+        "content-length": "6303"
+      },
+      "bytes": 6303,
+      "sha256": "7cd8c2e6c01885881533967d09f82143ea557cbf905c58e9b440b6ca01a02b40",
+      "canonical": [
+        "https://morikieng.github.io/"
+      ],
+      "lang": "ja",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/",
+        "en": "https://morikieng.github.io/en/",
+        "x-default": "https://morikieng.github.io/"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/3d-print.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/3d-print.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-1169\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:55 GMT",
+        "content-length": "4457"
+      },
+      "bytes": 4457,
+      "sha256": "5180d7f490fd8bce1bd82caa2ff5e1e23e73cb79eeae240a2db9fd5e0d917129",
+      "canonical": [
+        "https://morikieng.github.io/3d-print.html"
+      ],
+      "lang": "ja",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/3d-print.html",
+        "en": "https://morikieng.github.io/en/3d-print.html",
+        "x-default": "https://morikieng.github.io/3d-print.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/cad.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/cad.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-fc1\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:55 GMT",
+        "content-length": "4033"
+      },
+      "bytes": 4033,
+      "sha256": "1245355114fe124d9138cef8d879c14c25497c49fc2fa634811f7335fa389076",
+      "canonical": [
+        "https://morikieng.github.io/cad.html"
+      ],
+      "lang": "ja",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/cad.html",
+        "en": "https://morikieng.github.io/en/cad.html",
+        "x-default": "https://morikieng.github.io/cad.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/engineering.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/engineering.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-e5f\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:56 GMT",
+        "content-length": "3679"
+      },
+      "bytes": 3679,
+      "sha256": "55d2457a918978fba92746793319c3cc36c7ec7e9a78357ec40b4f84ff33fb3b",
+      "canonical": [
+        "https://morikieng.github.io/engineering.html"
+      ],
+      "lang": "ja",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/engineering.html",
+        "en": "https://morikieng.github.io/en/engineering.html",
+        "x-default": "https://morikieng.github.io/engineering.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/software.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/software.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-f2c\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:55 GMT",
+        "content-length": "3884"
+      },
+      "bytes": 3884,
+      "sha256": "7b77b43e9c9886b38b7793380874466e272da98649320e9f9c6e4a1ab862d61c",
+      "canonical": [
+        "https://morikieng.github.io/software.html"
+      ],
+      "lang": "ja",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/software.html",
+        "en": "https://morikieng.github.io/en/software.html",
+        "x-default": "https://morikieng.github.io/software.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/works.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/works.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-109b\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:55 GMT",
+        "content-length": "4251"
+      },
+      "bytes": 4251,
+      "sha256": "e8e0a138bc3264c50d11ef4b643eaf20e7b127e75419ff185f0e832e69b9d9f6",
+      "canonical": [
+        "https://morikieng.github.io/works.html"
+      ],
+      "lang": "ja",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/works.html",
+        "en": "https://morikieng.github.io/en/works.html",
+        "x-default": "https://morikieng.github.io/works.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/company.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/company.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-d88\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:56 GMT",
+        "content-length": "3464"
+      },
+      "bytes": 3464,
+      "sha256": "822f47bafd45c8ec2b607c0898ecb5481e0ef972dc47e8d19c552cd480955a59",
+      "canonical": [
+        "https://morikieng.github.io/company.html"
+      ],
+      "lang": "ja",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/company.html",
+        "en": "https://morikieng.github.io/en/company.html",
+        "x-default": "https://morikieng.github.io/company.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/contact.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/contact.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-f54\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:56 GMT",
+        "content-length": "3924"
+      },
+      "bytes": 3924,
+      "sha256": "4ebc7766b99f440bf5daa9776d6e16ef93c34e53989ff0392b085b520b5e6a83",
+      "canonical": [
+        "https://morikieng.github.io/contact.html"
+      ],
+      "lang": "ja",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/contact.html",
+        "en": "https://morikieng.github.io/en/contact.html",
+        "x-default": "https://morikieng.github.io/contact.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/en/3d-print.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/en/3d-print.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-10cc\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:56 GMT",
+        "content-length": "4300"
+      },
+      "bytes": 4300,
+      "sha256": "5ea205d6a372d2be6c14c09365959f4c02f53cc64fc7c38571250f1d8657465d",
+      "canonical": [
+        "https://morikieng.github.io/en/3d-print.html"
+      ],
+      "lang": "en",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/3d-print.html",
+        "en": "https://morikieng.github.io/en/3d-print.html",
+        "x-default": "https://morikieng.github.io/3d-print.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/en/cad.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/en/cad.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-f5f\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:57 GMT",
+        "content-length": "3935"
+      },
+      "bytes": 3935,
+      "sha256": "3f3837693c0965e6df48f49dc13ffb772762932acccd9b4e4873bf5790a16b53",
+      "canonical": [
+        "https://morikieng.github.io/en/cad.html"
+      ],
+      "lang": "en",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/cad.html",
+        "en": "https://morikieng.github.io/en/cad.html",
+        "x-default": "https://morikieng.github.io/cad.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/en/company.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/en/company.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-c97\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:57 GMT",
+        "content-length": "3223"
+      },
+      "bytes": 3223,
+      "sha256": "032e3ab24fa99ca972f2d7c1807b58f13a9efa668489830c560aad78a1ffed0b",
+      "canonical": [
+        "https://morikieng.github.io/en/company.html"
+      ],
+      "lang": "en",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/company.html",
+        "en": "https://morikieng.github.io/en/company.html",
+        "x-default": "https://morikieng.github.io/company.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/en/contact.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/en/contact.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-eb5\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:57 GMT",
+        "content-length": "3765"
+      },
+      "bytes": 3765,
+      "sha256": "cf8e89fcbd90f6b6316b6c5c152947a2941a5a1165de494f89dbebf82aadb600",
+      "canonical": [
+        "https://morikieng.github.io/en/contact.html"
+      ],
+      "lang": "en",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/contact.html",
+        "en": "https://morikieng.github.io/en/contact.html",
+        "x-default": "https://morikieng.github.io/contact.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/en/engineering.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/en/engineering.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-e60\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:56 GMT",
+        "content-length": "3680"
+      },
+      "bytes": 3680,
+      "sha256": "e8c29934d4e0a6e608f27f4e8de262dd10e4ae8b3edd8a189252bd53dbe0a72b",
+      "canonical": [
+        "https://morikieng.github.io/en/engineering.html"
+      ],
+      "lang": "en",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/engineering.html",
+        "en": "https://morikieng.github.io/en/engineering.html",
+        "x-default": "https://morikieng.github.io/engineering.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/en/",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/en/",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-1741\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:57 GMT",
+        "content-length": "5953"
+      },
+      "bytes": 5953,
+      "sha256": "53e903d53ef2b416572ffdf77878dd375d36ec034806a19169613739bcc78ff9",
+      "canonical": [
+        "https://morikieng.github.io/en/"
+      ],
+      "lang": "en",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/",
+        "en": "https://morikieng.github.io/en/",
+        "x-default": "https://morikieng.github.io/"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/en/software.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/en/software.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-e3b\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:57 GMT",
+        "content-length": "3643"
+      },
+      "bytes": 3643,
+      "sha256": "b3019624f43f64d2926b960d91855c5caaadf45f16ba675f7873305fc7b07dd4",
+      "canonical": [
+        "https://morikieng.github.io/en/software.html"
+      ],
+      "lang": "en",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/software.html",
+        "en": "https://morikieng.github.io/en/software.html",
+        "x-default": "https://morikieng.github.io/software.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    },
+    {
+      "url": "https://morikieng.github.io/en/works.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/en/works.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-f8f\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:42:59 GMT",
+        "content-length": "3983"
+      },
+      "bytes": 3983,
+      "sha256": "992fe5d04bcebc4d5ad29f1befd18b150bb533cea73004554f45775b1e3b87dc",
+      "canonical": [
+        "https://morikieng.github.io/en/works.html"
+      ],
+      "lang": "en",
+      "hreflang": {
+        "ja": "https://morikieng.github.io/works.html",
+        "en": "https://morikieng.github.io/en/works.html",
+        "x-default": "https://morikieng.github.io/works.html"
+      },
+      "robots_meta": [],
+      "robots_allows_googlebot": true,
+      "matches_main": true,
+      "hreflang_correct": true,
+      "canonical_correct": true
+    }
+  ],
+  "simulated_googlebot_sitemap": {
+    "url": "https://morikieng.github.io/sitemap.xml",
+    "status": 200,
+    "final_url": "https://morikieng.github.io/sitemap.xml",
+    "redirects": [],
+    "headers": {
+      "server": "envoy",
+      "content-type": "application/xml",
+      "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+      "etag": "\"6ad06439-44d\"",
+      "cache-control": "max-age=600",
+      "age": "0",
+      "date": "Thu, 15 Oct 2026 05:43:00 GMT",
+      "content-length": "1101"
+    },
+    "bytes": 1101,
+    "sha256": "5e6f690d3dd6e928955dfe2fa47694b918b71e967c0bc8e4e6fca2a2ef37519a",
+    "same_body": true
+  },
+  "protected_files": [
+    {
+      "url": "https://morikieng.github.io/app-ads.txt",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/app-ads.txt",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-3b\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:43:00 GMT",
+        "content-length": "59"
+      },
+      "bytes": 59,
+      "sha256": "562802c2be74ecf0aeca36d4c27db9cc3cc9e2dc893c72a1537010e6fb31d625",
+      "matches_main": true
+    },
+    {
+      "url": "https://morikieng.github.io/googled86428f90575e69a.html",
+      "status": 200,
+      "final_url": "https://morikieng.github.io/googled86428f90575e69a.html",
+      "redirects": [],
+      "headers": {
+        "server": "envoy",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 15 Oct 2026 05:27:21 GMT",
+        "etag": "\"6ad06439-35\"",
+        "cache-control": "max-age=600",
+        "age": "0",
+        "date": "Thu, 15 Oct 2026 05:43:01 GMT",
+        "content-length": "53"
+      },
+      "bytes": 53,
+      "sha256": "79eaed18733291fd17a38a7e2fad21ebc67942abb40cd2364d21da59e062c6e9",
+      "matches_main": true
+    }
+  ]
+}
