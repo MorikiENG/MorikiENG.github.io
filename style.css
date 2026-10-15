@@ -37,3 +37,9 @@ footer a{font-size:13px}.contact-guide{font-size:14px;line-height:1.8}
  section[id],main[id]{scroll-margin-top:80px}.detail{padding:60px 6vw}.portfolio-grid{grid-template-columns:1fr}.company-info{grid-template-columns:1fr;gap:8px}.company-info dd{margin-bottom:16px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.section,.contact,.cards article{transition:none;transform:none}.section.reveal,.contact.reveal,.cards article.reveal{opacity:1}}
+
+/* Language links use the existing header; no automatic language redirects. */
+.language-switch{display:flex;align-items:center;white-space:nowrap;font-size:12px;font-weight:800;letter-spacing:1px}
+.language-switch a{display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:44px;text-underline-offset:4px}
+.language-switch a[aria-current="page"]{text-decoration:none}
+@media(max-width:800px){.language-switch{margin-left:auto;margin-right:12px}.language-switch a{min-width:36px}}
