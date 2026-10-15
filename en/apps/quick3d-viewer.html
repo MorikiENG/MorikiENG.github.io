@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Quick3D Viewer | Moriki Engineering LLC</title>
-<meta name="description" content="Quick3D Viewer is an iOS app for viewing 3D CAD models, formerly QuickSTEP Viewer. Find app information, the App Store link, privacy policy and support.">
+<meta name="description" content="View, explore and measure STEP/STP models on iPhone. Discover the current QuickSTEP Viewer release, Quick3D Viewer development, downloads and support.">
 <meta name="theme-color" content="#b8ff2c">
 <link rel="canonical" href="https://morikieng.github.io/en/apps/quick3d-viewer.html">
 <meta property="og:title" content="Quick3D Viewer | Moriki Engineering LLC">
-<meta property="og:description" content="Quick3D Viewer is an iOS app for viewing 3D CAD models, formerly QuickSTEP Viewer. Find app information, the App Store link, privacy policy and support.">
+<meta property="og:description" content="View, explore and measure STEP/STP models on iPhone. Discover the current QuickSTEP Viewer release, Quick3D Viewer development, downloads and support.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Moriki Engineering LLC">
@@ -36,43 +36,51 @@
   <p class="eyebrow">MORIKI ENGINEERING / iOS APP</p>
   <h1>Quick3D Viewer</h1>
   <p class="lead">3D CAD Viewing, Made Simple.</p>
-  <p class="detail-intro">An iOS app developed by Moriki Engineering for viewing 3D CAD models. Formerly known as QuickSTEP Viewer.</p>
-  <div class="actions"><a class="btn primary" href="https://apps.apple.com/jp/app/quick3d-viewer/id6816122073">Download on the App Store</a><a class="btn" href="#support">Support &amp; privacy</a>
+  <p class="detail-intro">A 3D CAD viewer for iPhone, developed by Moriki Engineering. View STEP models, inspect parts and check dimensions wherever you work.</p>
+  <div class="actions"><a class="btn primary" href="https://apps.apple.com/app/id6816122073">Download on the App Store</a><a class="btn" href="#support">Support &amp; privacy</a>
 </div>
   <section class="detail-block" id="overview">
-    <h2>About the app</h2>
-    <p>QuickSTEP Viewer was renamed Quick3D Viewer as support expanded beyond STEP files to other 3D file formats.</p>
-    <p class="status">Detailed product information is being reviewed. Please see the App Store listing for current release information.</p>
+    <h2>Inspect shapes and dimensions on your iPhone</h2>
+    <p>Review STEP models on the shop floor, in meetings or while away from your desk. Open a file, move the model with touch gestures, and inspect parts and dimensions.</p>
+    <div class="product-note"><p><strong>About the current release</strong></p><p>Quick3D Viewer expands on QuickSTEP Viewer with support for more file formats. As of October 15, 2026, the App Store lists QuickSTEP Viewer v1.0 with STEP/STP support. Current release features and development work for a future version are described separately below.</p></div>
   </section>
   <section class="detail-block" id="features">
-    <h2>Key features</h2>
-    <!-- TODO(quick3d-features): Replace this placeholder with verified features from the latest source and device checks. -->
-    <div class="product-placeholder" data-placeholder="features"><p>Feature details are being reviewed.</p>
-</div>
+    <h2>Features in the current release</h2>
+    <div class="portfolio-grid">
+      <article class="portfolio-card"><h3>Open and explore</h3><p>View STEP/STP models and rotate, zoom and pan with touch gestures. Inspect model colors and XYZ orientation, and choose a background theme.</p></article>
+      <article class="portfolio-card"><h3>Inspect individual parts</h3><p>Select parts from the model tree and show or hide them individually to find the area you want to inspect within an assembly.</p></article>
+      <article class="portfolio-card"><h3>Check dimensions</h3><p>Measure two-point distances and XYZ differences, cylinder diameters and radii, and distances between parallel faces. Available measurements depend on the model geometry and how it is recognized.</p></article>
+    </div>
   </section>
   <section class="detail-block" id="formats">
-    <h2>Supported file formats</h2>
-    <!-- TODO(quick3d-formats): Add verified extensions and per-format limitations; do not infer feature parity. -->
-    <div class="product-placeholder" data-placeholder="formats"><p>The detailed list of supported file formats is being reviewed.</p>
-</div>
+    <h2>File formats in the current release</h2>
+    <p><strong>STEP / STP (.step / .stp)</strong></p>
+    <p>These are the formats listed for v1.0 on the App Store. See the development section below for IGES and mesh formats.</p>
+  </section>
+  <section class="detail-block" id="development">
+    <h2>In development for a future version</h2>
+    <p>Importers for the formats below are implemented in the development version. App Store availability has not been confirmed, and on-device viewing and interaction checks remain. These formats are not listed as supported by the current v1.0 release. No release date has been set.</p>
+    <dl class="product-formats">
+      <dt>IGES / IGS</dt><dd>Import of .iges / .igs CAD files.</dd>
+      <dt>STL / OBJ / PLY</dt><dd>Triangle mesh viewing: no color for STL, basic colors for OBJ and vertex colors for PLY. Point clouds are not supported.</dd>
+      <dt>3MF</dt><dd>Core meshes, component placements and basic colors. Extensions and textures are not supported.</dd>
+      <dt>GLB / glTF</dt><dd>Static glTF 2.0 triangle meshes, hierarchy and basic colors. Textures, animation playback and compression extensions are not supported.</dd>
+      <dt>USDZ / USD</dt><dd>Readable static triangle meshes only, rather than full USD scene composition. Binary USD and complex USDZ files have not been verified with real-world data.</dd>
+    </dl>
+    <div class="product-note"><p><strong>Measurement and display limitations</strong></p><p>Mesh formats do not support CAD-specific diameter, radius, face-distance or axis-distance measurements. STL, OBJ and PLY units are assumed to be millimeters. Two-point measurement is also disabled when USD units cannot be confirmed. Textures and transparency are not supported.</p></div>
   </section>
   <section class="detail-block" id="screenshots">
-    <h2>Screenshots</h2>
-    <!-- TODO(quick3d-screenshots): Replace the text block with real app screenshots, dimensions and descriptive alt text. No mock app screens. -->
-    <div class="product-placeholder" data-placeholder="screenshots"><p>App screenshots are not yet available on this page.</p>
-</div>
+    <h2>App images</h2>
+    <p>See the <a href="https://apps.apple.com/app/id6816122073">App Store product page</a> for images of the currently distributed app.</p>
   </section>
   <section class="detail-block" id="devices">
     <h2>Supported devices</h2>
-    <!-- TODO(quick3d-devices): Confirm supported devices and minimum OS versions against the latest release. -->
-    <div class="product-placeholder" data-placeholder="devices"><p>Device and OS requirements are being reviewed for this page. Check the App Store listing for current compatibility information.</p>
-</div>
+    <p>Designed for iPhone. The App Store lists iOS 18.6 as the minimum OS version. Check the listing for compatibility with your device and the latest requirements.</p>
   </section>
   <section class="detail-block" id="download">
     <h2>Download</h2>
-    <p>See the App Store for availability and the latest app information.</p>
-    <div class="actions"><a class="btn primary" href="https://apps.apple.com/jp/app/quick3d-viewer/id6816122073">Download on the App Store</a>
-</div>
+    <p>The app is currently listed as QuickSTEP Viewer on the App Store. Check the latest version, availability and terms before downloading.</p>
+    <div class="actions"><a class="btn primary" href="https://apps.apple.com/app/id6816122073">Download on the App Store</a></div>
   </section>
   <section class="detail-block" id="support">
     <h2>Privacy policy &amp; support</h2>

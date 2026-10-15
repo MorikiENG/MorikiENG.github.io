@@ -1,9 +1,12 @@
-/* Product-only additions: shared site styles and existing page geometry stay intact. */
+/* Product details use the shared site's typography, cards and accent color. */
 .quick3d-product .actions{flex-wrap:wrap}
 .quick3d-product .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;line-height:1.6;overflow-wrap:anywhere}
-.quick3d-product .product-placeholder{padding:24px;border:1px dashed var(--line);background:#fafafa}
-.quick3d-product .product-placeholder p{margin:0;color:#555}
-.quick3d-product #screenshots .product-placeholder{border-left:4px solid var(--green)}
-/* Ready for real screenshots when available. */
-.quick3d-product #screenshots img{display:block;max-width:100%;height:auto}
-@media(max-width:480px){.quick3d-product .actions .btn{width:100%}.quick3d-product .product-placeholder{padding:20px}}
+.quick3d-product .product-note{padding:20px 24px;border:1px solid var(--line);border-left:4px solid var(--green);background:#fafafa}
+.quick3d-product .product-note p:first-child{margin-top:0}
+.quick3d-product .product-note p:last-child{margin-bottom:0}
+.quick3d-product .portfolio-card h3{margin-top:0}
+.quick3d-product .product-formats{display:grid;grid-template-columns:160px minmax(0,1fr);gap:16px 24px;margin:28px 0}
+.quick3d-product .product-formats dt{font-weight:700;line-height:1.9}
+.quick3d-product .product-formats dd{margin:0}
+@media(max-width:600px){.quick3d-product .product-formats{grid-template-columns:1fr;gap:8px}.quick3d-product .product-formats dd{margin-bottom:16px}}
+@media(max-width:480px){.quick3d-product .actions .btn{width:100%}.quick3d-product .product-note{padding:16px}}
