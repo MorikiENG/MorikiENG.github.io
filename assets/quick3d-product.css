@@ -3,7 +3,14 @@
 .quick3d-product .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;line-height:1.6;overflow-wrap:anywhere}
 .quick3d-product .product-placeholder{padding:24px;border:1px dashed var(--line);background:#fafafa}
 .quick3d-product .product-placeholder p{margin:0;color:#555}
-.quick3d-product #screenshots .product-placeholder{border-left:4px solid var(--green)}
-/* Ready for real screenshots when available. */
 .quick3d-product #screenshots img{display:block;max-width:100%;height:auto}
 @media(max-width:480px){.quick3d-product .actions .btn{width:100%}.quick3d-product .product-placeholder{padding:20px}}
+
+/* Official App Store screenshots; horizontal scrolling works without JavaScript. */
+.quick3d-product .screenshot-gallery{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x proximity;padding:8px 8px 20px;margin:0 -8px 28px}
+.quick3d-product .screenshot-gallery:focus-visible{outline:3px solid #216200;outline-offset:4px}
+.quick3d-product .screenshot-card{flex:0 0 min(75vw,280px);min-width:0;margin:0;scroll-snap-align:start}
+.quick3d-product .screenshot-card-tablet{flex-basis:min(85vw,420px)}
+.quick3d-product .screenshot-card a{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.quick3d-product .screenshot-card img{width:100%;background:#fafafa}
+.quick3d-product .screenshot-card figcaption{margin-top:12px;font-size:14px;line-height:1.6}
