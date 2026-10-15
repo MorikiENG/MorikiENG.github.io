@@ -1,0 +1,9 @@
+/* Product-only additions: shared site styles and existing page geometry stay intact. */
+.quick3d-product .actions{flex-wrap:wrap}
+.quick3d-product .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;line-height:1.6;overflow-wrap:anywhere}
+.quick3d-product .product-placeholder{padding:24px;border:1px dashed var(--line);background:#fafafa}
+.quick3d-product .product-placeholder p{margin:0;color:#555}
+.quick3d-product #screenshots .product-placeholder{border-left:4px solid var(--green)}
+/* Ready for real screenshots when available. */
+.quick3d-product #screenshots img{display:block;max-width:100%;height:auto}
+@media(max-width:480px){.quick3d-product .actions .btn{width:100%}.quick3d-product .product-placeholder{padding:20px}}
