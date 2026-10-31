@@ -1,0 +1,25 @@
+/* Quick2D product page only. Existing support and Quick3D pages keep their styles. */
+.q2d-product .q2d-product-hero{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(240px,1fr);gap:48px;align-items:center}
+.q2d-product-copy{min-width:0}
+.q2d-product .q2d-type-panel{padding:32px;background:#111;color:#fff;min-width:0;border-bottom:8px solid var(--q2d-red)}
+.q2d-type-panel>span{font-size:10px;letter-spacing:1.4px;line-height:1.8}
+.q2d-type-panel>b{display:block;font-size:clamp(110px,16vw,190px);letter-spacing:-8px;line-height:1.1;margin:24px 0;font-weight:900}
+.q2d-type-panel>b span{color:var(--q2d-red)}
+.q2d-type-panel p{font-size:13px;letter-spacing:2px;color:#ddd}
+.q2d-product .detail-block{margin-top:60px;padding-top:26px}
+.q2d-product .detail-block>p:not(.eyebrow):not(.q2d-note){max-width:900px}
+.q2d-product .q2d-product-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;list-style:none;padding:0;margin:32px 0}
+.q2d-product .q2d-product-flow li{margin:0;padding:24px 0;border-top:3px solid var(--q2d-red)}
+.q2d-product-flow li>span{font-size:11px;font-weight:800;letter-spacing:1.2px;color:var(--q2d-dark-red)}
+.q2d-product .q2d-product-flow h3{font-size:24px;margin:18px 0 12px}
+.q2d-product .q2d-product-flow p{margin:0}
+.q2d-feature-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:48px}
+.q2d-feature-list article{padding:12px 0 20px;border-bottom:1px solid var(--line)}
+.q2d-feature-list h3{font-size:20px}
+.q2d-product .q2d-product-placeholder{padding:24px;border:1px dashed #ccc;background:#fafafa}
+.q2d-product-placeholder p{margin:0;color:#555}
+.q2d-sibling{border:1px solid var(--line);border-left:6px solid #b8ff2c;padding:24px 28px;margin-top:28px}
+.q2d-sibling h3{font-size:28px;margin:12px 0}
+.q2d-product #release{background:#fff4f5;border-top:3px solid var(--q2d-red);padding:28px}
+@media(max-width:1000px){.q2d-product .q2d-product-hero{grid-template-columns:1fr;gap:24px}.q2d-product .q2d-type-panel{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 24px}.q2d-type-panel>span{max-width:120px}.q2d-type-panel>b{font-size:100px;margin:0;letter-spacing:-5px}.q2d-type-panel p{letter-spacing:0;font-size:12px}}
+@media(max-width:600px){.q2d-product .q2d-product-flow,.q2d-feature-list{grid-template-columns:1fr;gap:12px}.q2d-product .q2d-product-flow li{padding:20px 0}.q2d-product .q2d-type-panel{padding:20px;gap:12px}.q2d-type-panel>span{max-width:90px;font-size:9px}.q2d-type-panel>b{font-size:76px;letter-spacing:-4px}.q2d-type-panel p{max-width:80px}.q2d-product #release{padding:20px}.q2d-sibling{padding:20px}.q2d-product .detail-block{margin-top:44px}.q2d-product .q2d-formats{grid-template-columns:1fr}}
