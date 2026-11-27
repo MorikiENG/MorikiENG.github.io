@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>ふせんカメラ（StickyCam）プライバシーポリシー | Moriki Engineering</title>
+<meta name="description" content="ふせんカメラ（StickyCam）の開発中の暫定プライバシーポリシー。写真・メモの端末内処理、写真追加権限、履歴の削除、今後の広告配信方針を説明します。">
+<link rel="canonical" href="https://morikieng.github.io/stickycam/privacy.html">
+<link rel="alternate" hreflang="ja" href="https://morikieng.github.io/stickycam/privacy.html">
+<link rel="alternate" hreflang="en" href="https://morikieng.github.io/en/stickycam/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://morikieng.github.io/stickycam/privacy/">
+<link rel="stylesheet" href="../assets/stickycam-privacy.css">
+</head>
+<body>
+<a class="skip-link" href="#main">本文へ移動</a>
+<header class="site-header"><a class="wordmark" href="../index.html">Moriki Engineering</a><nav aria-label="表示言語"><a data-language="ja" href="privacy.html" lang="ja" hreflang="ja" aria-current="page">日本語</a><a data-language="en" href="../en/stickycam/privacy.html" lang="en" hreflang="en">English</a></nav></header>
+<main id="main" class="policy">
+<div class="policy-intro"><p class="eyebrow">開発中の暫定版</p><h1>ふせんカメラ <span>StickyCam</span></h1><p class="subtitle">プライバシーポリシー</p><p class="updated">最終更新日：<time datetime="2026-11-27">2026年11月27日</time></p><div class="notice"><p>写真とメモは端末内で処理します。広告配信は導入予定、キャプションは正式採用前です。現在の実装と今後の予定を分けて説明します。</p></div></div>
+<nav class="contents" aria-label="目次"><h2>このページの内容</h2><ol><li><a href="#about">運営者とこの暫定版について</a></li><li><a href="#camera">カメラと写真ライブラリへのアクセス</a></li><li><a href="#processing">写真とメモの処理</a></li><li><a href="#history">メモ履歴と設定</a></li><li><a href="#captions">キャプションとメタデータ（正式採用前）</a></li><li><a href="#advertising">広告配信（導入予定）</a></li><li><a href="#consent">トラッキングと同意管理（設計中）</a></li><li><a href="#retention">保存期間・削除・バックアップ</a></li><li><a href="#services">第三者サービスとこのWebページ</a></li><li><a href="#rights">プライバシーに関する選択と子どもの情報</a></li><li><a href="#contact">お問い合わせ</a></li><li><a href="#changes">変更・制定日・更新日</a></li></ol></nav>
+<section id="about" aria-labelledby="about-title"><h2 id="about-title">1. 運営者とこの暫定版について</h2>
+<p>森樹エンジニアリング（Moriki Engineering、以下「開発者」）は、iOS／iPadOS向けアプリ「ふせんカメラ（StickyCam）」における情報の取扱いを説明します。本アプリは無料での提供を予定し、アカウント登録は不要です。独自サーバーや独自クラウドストレージはありません。</p>
+<p>本ポリシーは開発中の暫定版です。2026年11月27日に確認したソースでは、写真とメモの処理・端末内保存を実装しています。広告SDK・ATT・UMPは未実装で、広告配信は今後の開発工程で導入予定です。キャプション機能は正式採用前です。リリース前に実装と申告内容を再確認し、正式版へ更新します。</p>
+</section>
+<section id="camera" aria-labelledby="camera-title"><h2 id="camera-title">2. カメラと写真ライブラリへのアクセス</h2>
+<p>写真撮影のためにカメラへのアクセス許可を求めます。カメラ映像や撮影画像を開発者のサーバーへ送信しません。カメラの許可は端末の設定から変更できます。</p>
+<p>撮影した写真を標準写真ライブラリへ保存するため、写真ライブラリへの追加専用権限を使用します。既存の写真を読み取る権限は要求せず、写真ライブラリ内の既存写真を取得・収集しません。保存には写真の追加許可が必要です。</p>
+</section>
+<section id="processing" aria-labelledby="processing-title"><h2 id="processing-title">3. 写真とメモの処理</h2>
+<p>入力したメモを撮影画像へ合成する処理は端末内で行います。写真やメモを開発者が収集したり、独自クラウドへアップロードしたりする処理はありません。写真・メモの内容を広告配信事業者へ提供しない方針です。</p>
+<p>写真に写る情報や入力するメモは、ご自身で確認・管理してください。個人情報や機密情報が写っている場合、画像内に合成されたメモを含めて、保存・共有時の取扱いにご注意ください。</p>
+</section>
+<section id="history" aria-labelledby="history-title"><h2 id="history-title">4. メモ履歴と設定</h2>
+<p>保存に成功した写真に使用したメモを、履歴として最大50件まで端末内に保存します。同じメモは最新の履歴としてまとめられます。履歴画面から個別削除または一括削除できます。削除・保存のエラーが表示された場合は、再試行して保存状態を確認してください。</p>
+<p>付箋の外観・表示位置、日時表示、キャプション設定等も端末内に保存します。開発者はこれらの履歴や設定を取得しません。履歴の削除は、写真に合成済みのメモや標準写真ライブラリのキャプションを削除する操作ではありません。</p>
+</section>
+<section id="captions" aria-labelledby="captions-title"><h2 id="captions-title">5. キャプションとメタデータ（正式採用前）</h2>
+<p>開発版には、対応するOSで入力したメモを写真のキャプションとして登録する機能があります。対応する設定画面で自動登録を無効にできます。キャプションの正式採用、対応OS、初期設定、保存失敗時の動作はリリース前に再確認します。</p>
+<p>写真を他のアプリや第三者へ共有すると、画像内のメモやキャプション等のメタデータも共有先へ渡る場合があります。自動登録を無効にしても、過去に保存したキャプションや画像内のメモは削除されません。写真とメタデータは標準写真アプリ等でご自身で管理してください。</p>
+</section>
+<section id="advertising" aria-labelledby="advertising-title"><h2 id="advertising-title">6. 広告配信（導入予定）</h2>
+<p>Google AdMobによる広告配信を予定しています。現在確認したソースにはGoogle Mobile Ads SDKを導入しておらず、以下は導入後に関係するGoogleの一般的な取扱いの説明です。現在のアプリで広告SDKが情報を収集していると示すものではありません。</p>
+<p>Googleの公式説明では、広告SDKは広告識別子等の端末・アプリ識別子、端末情報、IPアドレスと推定されるおおまかな位置、広告の表示・操作、利用状況、診断情報などを扱う場合があります。用途には広告配信・効果測定、不正防止、分析・サービス改善が含まれます。実際の項目は導入するSDK・設定・地域・許可や同意の状態に応じて確認します。</p>
+<p>パーソナライズ広告は過去の行動等の情報を広告選択に利用します。非パーソナライズ広告でも、配信回数の制御・集計・不正防止等の処理が行われる場合があり、「データを一切扱わない広告」という意味ではありません。どの方式を採用するかは未確定です。</p>
+<p>Googleによる取扱いは、<a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a>および<a href="https://policies.google.com/technologies/partner-sites">Googleのサービスを使用するサイトやアプリから収集した情報の利用</a>をご確認ください。実際のSDK・第三者提供先・データ項目は正式版で更新します。</p>
+</section>
+<section id="consent" aria-labelledby="consent-title"><h2 id="consent-title">7. トラッキングと同意管理（設計中）</h2>
+<p>ATT（App Tracking Transparency）とGoogle UMP（User Messaging Platform）の導入・設定は未確定で、現在のソースでは未実装です。必要な許可・同意の取得と変更方法、広告設定を開き直す入口は、最終実装に合わせてリリース前に説明します。現在存在しない同意画面や設定ボタンを利用できると案内していません。</p>
+<p>トラッキングを許可しない場合でも、撮影・メモ合成・保存などの基本機能を利用できる方針です。撮影と保存に必要なカメラ・写真追加の許可は、広告やトラッキングの許可とは別です。</p>
+</section>
+<section id="retention" aria-labelledby="retention-title"><h2 id="retention-title">8. 保存期間・削除・バックアップ</h2>
+<p>メモ履歴は最大50件の範囲で保持し、上限を超えた古い履歴や利用者が削除した履歴は履歴一覧から除かれます。設定は変更・初期化等まで端末内に保持します。アプリを削除すると、アプリ内の履歴・設定は原則として削除されます。「Appを取り除く」などデータを残すOSの操作とは異なります。</p>
+<p>標準写真ライブラリに保存した写真はアプリを削除しても残ります。写真の削除は標準写真アプリで行ってください。「最近削除した項目」や共有先にあるコピーも、それぞれの保存先で管理してください。開発者が端末内の写真を遠隔削除する機能はありません。</p>
+<p>OSやiCloud等のバックアップ・同期・復元は利用者の端末・サービス設定に依存します。現在の実装ではメモ履歴フォルダをバックアップ対象外に設定していますが、設定や写真を含む全データのバックアップ・復元をアプリが管理または一括削除するものではありません。広告導入後のGoogle側の保持・削除はGoogleの方針に従います。</p>
+</section>
+<section id="services" aria-labelledby="services-title"><h2 id="services-title">9. 第三者サービスとこのWebページ</h2>
+<p>写真ライブラリ、OSの同期・バックアップ、ご自身で選ぶ共有先には、Appleや各サービス提供者の取扱いが適用されます。アプリ独自のクラウド同期はありません。今後広告SDK等を追加する場合は、提供者・データの取扱いを確認して本ポリシーを更新します。</p>
+<p>このポリシーページには、広告SDK・アクセス解析・独自の追跡Cookieを追加していません。GitHub Pagesによる配信で生じる通信情報等の取扱いは、<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシーに関する説明</a>をご確認ください。</p>
+</section>
+<section id="rights" aria-labelledby="rights-title"><h2 id="rights-title">10. プライバシーに関する選択と子どもの情報</h2>
+<p>端末設定でカメラ・写真追加の許可を変更し、アプリ内で履歴の確認・削除ができます。写真・キャプションは標準写真アプリ等で管理してください。適用される法令に基づく開示・訂正・削除等に関するご相談は、お問い合わせ先で受け付けます。開発者が保有していない端末内データを取り寄せたり削除したりできるという意味ではありません。</p>
+<p>子どもの個人情報を開発者へ送信して収集するための機能は設けていません。未成年の方は必要に応じて保護者と端末の権限・共有設定を確認してください。子どもの情報の取扱いに懸念がある場合は、保護者からお問い合わせください。広告の年齢区分・子ども向けの設定は広告実装とリリース前に再確認します。</p>
+</section>
+<section id="contact" aria-labelledby="contact-title"><h2 id="contact-title">11. お問い合わせ</h2>
+<p>開発者：森樹エンジニアリング（Moriki Engineering）<br>連絡先：<a href="mailto:moriki.engineering@gmail.com">moriki.engineering@gmail.com</a></p>
+<p>お問い合わせで任意に提供されたメールアドレス、お名前、本文、添付資料は、返信と問題調査のために取り扱います。これはアプリによる写真・メモの自動収集とは別です。対応と必要な記録のために保持し、不要となったものは削除します。具体的な保持期間や削除のご相談もこの窓口へご連絡ください。添付資料には不要な個人情報・機密情報を含めないでください。</p>
+</section>
+<section id="changes" aria-labelledby="changes-title"><h2 id="changes-title">12. 変更・制定日・更新日</h2>
+<p>実装、利用するサービス、取扱い方針の変更に合わせて本ポリシーと更新日を見直します。重要な変更は本ページで案内し、必要に応じてアプリ内の説明や同意手続きを更新します。広告・同意管理・キャプションの最終仕様とApp Storeの申告内容を確認したうえで、リリース前に暫定版を正式版へ更新します。</p>
+<p>暫定版の制定日・最終更新日：<time datetime="2026-11-27">2026年11月27日</time></p>
+</section>
+</main>
+<footer><p>© 2026 Moriki Engineering</p><a href="../index.html">森樹エンジニアリング公式サイト</a></footer>
+</body>
+</html>
